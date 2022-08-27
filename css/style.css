@@ -782,7 +782,7 @@ button {
 .wsus__featured_services .slick-dots li button,
 .wsus__testimonial .slick-dots li button {
     font-size: 0;
-    width: 35px;
+    width: 20px;
     height: 5px;
     background: var(--colorPrimary);
     opacity: 0.25;
@@ -1695,6 +1695,191 @@ footer {
 ================================*/
 
 
+/*================================
+    BREADCRUMB START
+================================*/
+.wsus__breadcrumb {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.wsus__breadcrumb_overlay {
+    background: #000000bf;
+    padding: 220px 0px 105px 0px;
+}
+
+.wsus__breadcrumb h1 {
+    text-transform: capitalize;
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--colorWhite);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.wsus__breadcrumb ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wsus__breadcrumb ul li,
+.wsus__breadcrumb ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--colorWhite);
+    text-transform: capitalize;
+}
+
+.wsus__breadcrumb ul li a {
+    margin-right: 30px;
+    position: relative;
+}
+
+.wsus__breadcrumb ul li a::after {
+    position: absolute;
+    content: "\f30b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    top: 5px;
+    right: -20px;
+    font-size: 12px;
+    border-radius: 50%;
+    color: var(--colorWhite);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus__breadcrumb ul li {
+    color: #373cff;
+}
+
+/*================================
+    BREADCRUMB END
+================================*/
+
+
+/*================================
+    PAGINATION START
+================================*/
+.wsus__pagination {}
+
+.wsus__pagination nav {}
+
+.wsus__pagination nav ul {
+    justify-content: center;
+}
+
+.wsus__pagination nav ul li {}
+
+.wsus__pagination nav ul li a {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding: 0;
+    color: var(--colorPrimary) !important;
+    border: 1px solid var(--colorPrimary) !important;
+    border-radius: 3px !important;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wsus__pagination nav ul li.active a,
+.wsus__pagination nav ul li a:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite) !important;
+}
+
+/*================================
+    PAGINATION END
+================================*/
+
+
+/*================================
+    SERVICES START
+================================*/
+.wsus__search_filter {
+    padding: 15px 5px 15px 15px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background: var(--colorPrimary);
+}
+
+.wsus__search_filter ul li {
+    width: 25%;
+    padding-right: 10px;
+}
+
+/*================================
+    SERVICES END
+================================*/
+
+
+/*================================
+    ABOUT START
+================================*/
+.wsus__about_work {}
+
+.wsus__single_work {
+    background: var(--colorWhite);
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-top: 25px;
+    box-shadow: 20px 20px 45px 5px rgb(55 143 255 / 10%);
+}
+
+.wsus__single_work span {
+    width: 100px;
+    height: 100px;
+    display: block;
+    background: var(--colorPrimary);
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.wsus__single_work span img {
+    background: var(--colorWhite);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.wsus__single_work h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--colorBlack);
+    margin: 35px 0px 15px 0px;
+}
+
+.wsus__single_work p {}
+
+
+
+
+
+
+
+
+/*================================
+    ABOUT END
+================================*/
 
 
 
