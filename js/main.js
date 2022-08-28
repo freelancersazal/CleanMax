@@ -24,9 +24,14 @@ $(function () {
     $('#select_js4').niceSelect();
 
 
-    //=========main.js=========   
+    //=========counter js=========   
     $('.counter').countUp();
 
+
+    //*=======STICKY SIDEBAR====== 
+    $("#sticky_sidebar").stickit({
+        top: 95,
+    })
 
     //=======CATEGORY SLIDER====== 
     $('.category_slider').slick({
