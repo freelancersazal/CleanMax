@@ -2,7 +2,6 @@ $(function () {
 
     "use strict";
 
-
     //======menu fix js======   
     if ($('.main_menu').offset() != undefined) {
         var navoff = $('.main_menu').offset().top;
@@ -15,7 +14,7 @@ $(function () {
                 $('.main_menu').removeClass('menu_fix');
             }
         });
-    }
+    };
 
     //=======SELECT JS====== 
     $('#select_js').niceSelect();
@@ -31,7 +30,8 @@ $(function () {
     //*=======STICKY SIDEBAR====== 
     $("#sticky_sidebar").stickit({
         top: 95,
-    })
+    });
+
 
     //=======CATEGORY SLIDER====== 
     $('.category_slider').slick({
@@ -121,7 +121,6 @@ $(function () {
     });
 
 
-
     //=======TESTIMONIAL SLIDER====== 
     $('.testi_slider').slick({
         slidesToShow: 2,
@@ -163,16 +162,14 @@ $(function () {
                 }
             }
         ]
-
     });
 
 
-    // ===velobos js===
+    // =====VENOBOX JS=======
     $('.venobox').venobox();
 
 
-
-    //=======TESTIMONIAL SLIDER====== 
+    //=======TESTIMONIAL SLIDER======= 
     $('.blog_det_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -216,7 +213,6 @@ $(function () {
     });
 
 
-
     //=======BRAND SLIDER====== 
     $('.brand_slider').slick({
         slidesToShow: 6,
@@ -258,12 +254,15 @@ $(function () {
                 }
             }
         ]
-
     });
 
 
-
-
-
+    //=========CALENDER JS=========   
+    $(function () {
+        $('#calendar_js').calendar({
+            months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            days: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+        });
+    });
 
 });
