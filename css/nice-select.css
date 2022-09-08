@@ -156,6 +156,7 @@
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   text-transform: capitalize;
+  width: 100%;
 }
 
 .nice-select .option:hover,

@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.calendar.css">
     <link rel="stylesheet" href="css/nice-select.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/venobox.min.css">
@@ -18,8 +19,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body class="home_page">
-
+<body>
 
     <!--=========================
         TOPBAR START
@@ -27,7 +27,7 @@
     <section class="wsus__topbar">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-12 col-lg-5">
+                <div class="col-xl-6 col-12 col-md-5 col-lg-5">
                     <div class="wsus__topbar_right d-flex flex-wrap">
                         <ul class="wsus__topbar_icon d-flex flex-wrap">
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -66,9 +66,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-6 col-12 col-lg-7">
+                <div class="col-xl-6 col-12 col-md-7 col-lg-7">
                     <ul class="wsus__topbar_info d-flex flex-wrap justify-content-end">
-                        <li class="d-none d-sm-block"><span><i class="fas fa-clock"></i> 9.00 AM-6.00PM</span></li>
+                        <li class="d-none d-sm-block d-md-none d-lg-block"><span><i class="fas fa-clock"></i> 9.00
+                                AM-6.00PM</span></li>
                         <li><a href="callto:+90456789251"><i class="fas fa-phone-alt"></i> +90 456 789 251</a></li>
                         <li><a href="mailto:infoyour@gmail.com"><i class="fas fa-envelope"></i> infoyour@gmail.com</a>
                         </li>
@@ -145,7 +146,6 @@
     ==========================-->
 
 
-
     <!--=========================
         404 START
     ==========================-->
@@ -174,7 +174,7 @@
     <footer class="pt_100 xs_pt_70">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-7 col-lg-4">
                     <div class="wsus__footer_contact">
                         <a class="footer_logo" href="index.html">
                             <img src="images/Logo.png" alt="CleanMax" class="img-fluid">
@@ -193,7 +193,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 col-md-5 col-lg-2">
                     <div class="wsus__footer_content">
                         <h4>Quick Link</h4>
                         <ul>
@@ -205,7 +205,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 col-md-5 order-md-4 col-lg-2 order-lg-3">
                     <div class="wsus__footer_content">
                         <h4>Our Category</h4>
                         <ul>
@@ -217,7 +217,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-7 order-md-3 col-lg-4 order-lg-3">
                     <div class="wsus__footer_payment">
                         <h4>Secure Payments</h4>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have
@@ -242,6 +242,16 @@
     ==========================-->
 
 
+    <!--=========================
+        SCROLL BUTTON START
+    ===========================-->
+    <div class="wsus__scroll_btn">
+        <span><i class="fas fa-arrow-alt-up"></i></span>
+    </div>
+    <!--==========================
+        SCROLL BUTTON END
+    ===========================-->
+
 
     <!--jquery library js-->
     <script src="js/jquery-3.6.0.min.js"></script>
@@ -249,14 +259,19 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <!--font-awesome js-->
     <script src="js/Font-Awesome.js"></script>
+    <!--calender js-->
+    <script src="js/jquery.calendar.js"></script>
+    <!--nice-selec js-->
     <script src="js/jquery.nice-select.min.js"></script>
+    <!--slick slider js-->
     <script src="js/slick.min.js"></script>
+    <!--counter-up js-->
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.countup.min.js"></script>
+    <!--sticky sidebar js-->
     <script src="js/sticky_sidebar.js"></script>
+    <!--venobox js-->
     <script src="js/venobox.min.js"></script>
-
-
 
     <!--main/custom js-->
     <script src="js/main.js"></script>

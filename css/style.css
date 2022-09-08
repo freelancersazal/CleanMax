@@ -97,6 +97,10 @@ button {
     border-radius: 30px;
     font-weight: 400;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .common_btn:hover {
@@ -127,7 +131,7 @@ button {
 .wsus__topbar {
     width: 100%;
     height: 50px;
-    background: rgb(41, 43, 117);
+    background: var(--colorPrimary);
     position: fixed;
     top: 0px;
     left: 0px;
@@ -213,6 +217,7 @@ button {
     background: var(--colorWhite);
     position: absolute;
     top: 100%;
+    left: 0;
     transform-origin: center top;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     opacity: 0;
@@ -222,6 +227,10 @@ button {
     transform: scaleY(0.5);
     transition: all 0.2s linear 0s;
     z-index: 9999;
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
 }
 
 .wsus__select_language li {
@@ -234,6 +243,10 @@ button {
     padding: 1px 12px;
     border-bottom: 1px solid rgb(238, 238, 238);
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__select_language li:last-child a {
@@ -266,6 +279,10 @@ button {
     font-size: 15px;
     transition: all 0.3s linear 0s;
     border-radius: 2px;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__topbar_icon li a:hover {
@@ -291,6 +308,10 @@ button {
     top: 50px;
     left: 0px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .main_menu .navbar-brand {
@@ -314,6 +335,10 @@ button {
     padding: 0px;
     margin: 0px 15px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .main_menu .nav-item:hover .nav-link,
@@ -336,6 +361,10 @@ button {
     border: 1px solid rgb(230, 241, 255);
     overflow: hidden;
     z-index: 9;
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
 }
 
 .main_menu .wsus__droap_menu li a {
@@ -347,6 +376,10 @@ button {
     position: relative;
     transition: all 0.3s linear 0s;
     border-bottom: 1px solid rgb(238, 238, 238);
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .main_menu .wsus__droap_menu li:last-child a {
@@ -355,14 +388,20 @@ button {
 
 .main_menu .wsus__droap_menu li a::after {
     position: absolute;
-    content: "";
-    color: var(--colorPrimary);
-    font-family: "Font Awesome 5 Free";
-    font-weight: 600;
-    top: 0px;
-    right: 30px;
+    content: "";
+    width: 5px;
+    height: 25px;
+    background: var(--colorPrimary);
+    border-radius: 5px;
+    top: 50%;
+    left: -1px;
+    transform: translateY(-50%);
     transition: all 0.3s linear 0s;
     opacity: 0;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .main_menu .wsus__droap_menu li a:hover,
@@ -373,7 +412,6 @@ button {
 
 .main_menu .wsus__droap_menu li a:hover::after,
 .main_menu .wsus__droap_menu li a.active::after {
-    right: 20px;
     opacity: 1;
 }
 
@@ -410,10 +448,14 @@ button {
     line-height: 50px;
     text-align: center;
     border-radius: 50%;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .main_menu .wsus__right_menu li a.active,
-.main_menu .wsus__right_menu li a:hover {
+.main_menu .wsus__right_menu li:hover a {
     color: var(--colorWhite);
     background: var(--colorPrimary);
 }
@@ -439,6 +481,10 @@ button {
     border-radius: 40px;
     transition: all 0.4s linear 0s;
     line-height: 29px;
+    -webkit-transition: all 0.4s linear 0s;
+    -moz-transition: all 0.4s linear 0s;
+    -ms-transition: all 0.4s linear 0s;
+    -o-transition: all 0.4s linear 0s;
 }
 
 .search_form input {
@@ -459,6 +505,10 @@ button {
     color: var(--colorWhite);
     transform: translateY(-50%);
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__right_menu li:hover .search_form {
@@ -470,7 +520,7 @@ button {
 .menu_fix {
     position: fixed;
     left: 0px;
-    top: 0px;
+    top: 0px !important;
     z-index: 9999;
     animation: 1s ease-in-out 0s 1 normal none running menu_animate;
 }
@@ -496,7 +546,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 110px;
+    padding-top: 115px;
     position: relative;
 }
 
@@ -589,6 +639,10 @@ button {
 .wsus__single_category img {
     opacity: 0;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__single_category:hover img {
@@ -618,6 +672,10 @@ button {
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__single_category span {
@@ -638,6 +696,10 @@ button {
 .wsus__single_category p {
     text-align: center;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__single_category:hover::after {
@@ -702,6 +764,10 @@ button {
     margin: 0px 12px;
     overflow: hidden;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__featured_services_img {
@@ -783,6 +849,10 @@ button {
     overflow: hidden;
     margin: 15px 0px 20px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .featured_service_footer {
@@ -910,6 +980,10 @@ button {
     transition: all 0.3s linear 0s;
     background: var(--colorWhite);
     box-shadow: rgba(149, 157, 165, 0.25) 0px 8px 24px;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__single_services_img {
@@ -922,6 +996,10 @@ button {
 
 .wsus__single_services_img img {
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__single_services:hover .wsus__single_services_img img {
@@ -1004,6 +1082,10 @@ button {
     overflow: hidden;
     margin: 15px 0px 20px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__single_services_text h4 {
@@ -1027,6 +1109,10 @@ button {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__single_services .book_btn::after {
@@ -1034,7 +1120,7 @@ button {
     content: "";
     background: rgb(19, 20, 84);
     width: 25px;
-    height: 25px;
+    height: 24px;
     transform: rotate(40deg);
     top: -14px;
     left: 5px;
@@ -1150,7 +1236,7 @@ button {
 
 .wsus__app_download_text ul li a {
     background: var(--colorPrimary);
-    padding: 12px 30px 10px;
+    padding: 12px 30px 13px 30px;
     border-radius: 5px;
     margin-right: 10px;
     color: var(--colorWhite);
@@ -1158,6 +1244,10 @@ button {
     transition: all 0.3s linear 0s;
     display: flex;
     align-items: center;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__app_download_text ul li a:hover {
@@ -1184,6 +1274,26 @@ button {
 
 .wsus__app_download_img {
     height: 415px;
+    animation: download_animi linear 4s alternate infinite;
+    -webkit-animation: download_animi linear 4s alternate infinite;
+}
+
+@keyframes download_animi {
+    from {
+        transform: rotate(10deg);
+        -webkit-transform: rotate(10deg);
+        -moz-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+        -o-transform: rotate(10deg);
+    }
+
+    to {
+        transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
+    }
 }
 
 /* ===================================
@@ -1196,11 +1306,15 @@ button {
     TESTIMONIAL START
 =================================== */
 .wsus__single_testimonial {
-    padding: 60px 30px 30px;
+    padding: 60px 30px 30px 30px;
     background: rgb(233, 247, 250);
     position: relative;
     transition: all 0.3s linear 0s;
     margin: 35px 12px 8px;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__single_testimonial .quot_icon {
@@ -1217,6 +1331,10 @@ button {
     border-left: 5px solid var(--colorPrimary);
     padding-left: 25px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__single_testimonial_text {
@@ -1236,12 +1354,20 @@ button {
     font-weight: 700;
     text-transform: capitalize;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__single_testimonial_text h3 span {
     display: block;
     margin-top: 5px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__single_testimonial:hover {
@@ -1272,6 +1398,10 @@ button {
     overflow: hidden;
     border-radius: 5px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__single_blog_img {
@@ -1281,6 +1411,10 @@ button {
 
 .wsus__single_blog_img img {
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__single_blog:hover .wsus__single_blog_img img {
@@ -1303,6 +1437,10 @@ button {
     overflow: hidden;
     border-bottom: 1px solid rgb(214, 216, 253);
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__single_blog_text ul li {
@@ -1447,6 +1585,10 @@ footer {
     text-align: center;
     border-radius: 2px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__footer_contact ul li a:hover {
@@ -1471,6 +1613,10 @@ footer {
     position: relative;
     padding-left: 15px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__footer_content ul li a::after {
@@ -1483,6 +1629,10 @@ footer {
     font-size: 11px;
     color: var(--colorBlack);
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__footer_content ul li a:hover {
@@ -1528,6 +1678,50 @@ footer {
 /* ===================================
     FOOTER END
 =================================== */
+
+
+/* ==============================
+    SCRTOLL BTN START
+============================== */
+.wsus__scroll_btn {
+    width: 35px;
+    height: 70px;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    z-index: 111;
+    cursor: pointer;
+    text-align: center;
+    line-height: 70px;
+    background: var(--colorPrimary);
+    border: 3px solid var(--colorWhite);
+}
+
+.wsus__scroll_btn span {
+    font-size: 16px;
+    color: var(--colorWhite);
+    animation: scroll_amini linear 2s infinite alternate;
+    -webkit-animation: scroll_amini linear 2s infinite alternate;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+
+@keyframes scroll_amini {
+    from {
+        bottom: -20px;
+    }
+
+    to {
+        bottom: 17px;
+    }
+}
+
+/* ==============================
+    SCRTOLL BTN END
+============================== */
 
 
 /* ===================================
@@ -1583,6 +1777,10 @@ footer {
     color: var(--colorWhite);
     transition: all 0.3s linear 0s;
     border-radius: 50%;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__breadcrumb ul li {
@@ -1813,6 +2011,7 @@ footer {
     font-weight: 700;
     color: var(--colorBlack);
     text-transform: capitalize;
+    margin-bottom: 0;
 }
 
 .wsus__single_review_top .text h3 span {
@@ -1920,6 +2119,10 @@ footer {
     top: 0px;
     left: 0px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__package a {
@@ -1933,6 +2136,10 @@ footer {
     margin-top: 30px;
     transition: all 0.3s linear 0s;
     text-align: center;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__package a:hover {
@@ -2040,7 +2247,7 @@ footer {
     font-size: 24px;
     font-weight: 700;
     color: var(--colorBlack);
-    margin: 35px 0px 15px;
+    margin: 20px 0px 15px;
 }
 
 .wsus__about_us_img {
@@ -2189,7 +2396,7 @@ footer {
     width: 1px;
     height: 100%;
     top: 0px;
-    left: 0px;
+    left: 1px;
     z-index: -1;
 }
 
@@ -2202,6 +2409,10 @@ footer {
     z-index: 1;
     border-radius: 3px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__about_reasons_text ul li p {
@@ -2227,6 +2438,10 @@ footer {
     background: rgb(255, 255, 255);
     border: 6px solid var(--colorPrimary);
     transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
 }
 
 .wsus__about_reasons_text ul li::before {
@@ -2357,6 +2572,10 @@ footer {
     overflow: hidden;
     margin-bottom: 7px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__related_blog ul li .text a:hover {
@@ -2382,6 +2601,10 @@ footer {
     justify-content: space-between;
     margin-top: 15px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__blog_categori ul li a span {
@@ -2396,6 +2619,10 @@ footer {
     border-radius: 3px;
     border: 1px solid transparent;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__blog_categori ul li a:hover {
@@ -2423,6 +2650,10 @@ footer {
     margin-top: 10px;
     margin-right: 10px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__blog_tags ul li a:hover {
@@ -2625,6 +2856,10 @@ footer {
 
 .wsus__blog_det_slider .venobox:hover img {
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__blog_det_slider .gal_img_overlay {
@@ -2643,6 +2878,10 @@ footer {
     opacity: 0;
     transition: all 0.3s linear 0s;
     transform: translate(-50%, -50%) scale(0);
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__blog_det_slider .venobox:hover img {
@@ -2704,6 +2943,10 @@ footer {
     text-transform: capitalize;
     margin-right: 10px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .blog_tags_share .tags ul li a:hover {
@@ -2722,6 +2965,10 @@ footer {
     font-size: 14px;
     box-shadow: rgba(0, 124, 251, 0.16) 0px 4px 8px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .blog_tags_share .share ul li a:hover {
@@ -2778,6 +3025,10 @@ footer {
     align-items: start;
     padding: 35px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .blog_det_button li a h3 {
@@ -2786,6 +3037,10 @@ footer {
     margin-bottom: 25px;
     color: var(--colorWhite);
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .blog_det_button li a p {
@@ -2870,6 +3125,7 @@ footer {
     background: rgb(233, 247, 250);
     border-radius: 5px;
     padding: 25px;
+    padding-bottom: 5px;
 }
 
 .comment_input h4 {
@@ -2929,6 +3185,10 @@ footer {
     margin-bottom: 25px;
     position: relative;
     overflow: hidden;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__contact_info::after {
@@ -2945,7 +3205,7 @@ footer {
 .wsus__contact_info::before {
     position: absolute;
     content: "";
-    background: rgba(41, 43, 117, 0.03);
+    background: rgb(41 43 117 / 5%);
     width: 200px;
     height: 200px;
     top: 15px;
@@ -2965,12 +3225,16 @@ footer {
     font-size: 20px;
     border-radius: 50%;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__contact_info .contact_text {
     border-left: 1px solid var(--colorPrimary);
     width: 75%;
-    padding: 57px 20px;
+    padding: 53.5px 20px;
 }
 
 .wsus__contact_info .contact_text a,
@@ -2981,6 +3245,10 @@ footer {
     text-align: center;
     color: var(--colorBlack);
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .contact_input h4 {
@@ -3239,6 +3507,10 @@ footer {
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
     transition: all 0.3s linear 0s;
     background: var(--colorPrimary) !important;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__faq_area .accordion-item button:not(.collapsed)::before {
@@ -3427,6 +3699,10 @@ footer {
     font-weight: 400;
     color: red;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__login_imput a:hover {
@@ -3476,6 +3752,10 @@ footer {
     font-size: 14px;
     border: 1px solid transparent;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__login_area ul li a:hover {
@@ -3606,6 +3886,10 @@ footer {
     color: var(--colorPrimary);
     transition: all 0.3s linear 0s;
     border-radius: 50%;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__service_cart {
@@ -4003,6 +4287,10 @@ footer {
     border-bottom: 1px solid rgb(255, 255, 255) !important;
     border-radius: 0px !important;
     padding: 15px 25px !important;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__dashboard_menu button span {
@@ -4010,6 +4298,10 @@ footer {
     width: 25px;
     display: inline-block;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__dashboard_menu button:last-child {
@@ -4036,6 +4328,10 @@ footer {
     right: -3px;
     border-radius: 3px;
     transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
 }
 
 .wsus__dashboard_content {
@@ -4328,11 +4624,12 @@ footer {
     -moz-transition: all 0.3s linear 0s;
     -ms-transition: all 0.3s linear 0s;
     -o-transition: all 0.3s linear 0s;
+    background: red;
+    color: var(--colorWhite);
 }
 
 .wsus__dashboard .modal-footer .del_btn:hover {
-    background: red;
-    color: var(--colorWhite);
+    background: #c02b2b;
 }
 
 /* ==================================
