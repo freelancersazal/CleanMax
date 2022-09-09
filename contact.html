@@ -27,7 +27,7 @@
     <section class="wsus__topbar">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-12 col-lg-5">
+                <div class="col-xl-6 col-12 col-md-5 col-lg-5">
                     <div class="wsus__topbar_right d-flex flex-wrap">
                         <ul class="wsus__topbar_icon d-flex flex-wrap">
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -66,9 +66,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-6 col-12 col-lg-7">
+                <div class="col-xl-6 col-12 col-md-7 col-lg-7">
                     <ul class="wsus__topbar_info d-flex flex-wrap justify-content-end">
-                        <li class="d-none d-sm-block"><span><i class="fas fa-clock"></i> 9.00 AM-6.00PM</span></li>
+                        <li class="d-none d-sm-block d-md-none d-lg-block"><span><i class="fas fa-clock"></i> 9.00
+                                AM-6.00PM</span></li>
                         <li><a href="callto:+90456789251"><i class="fas fa-phone-alt"></i> +90 456 789 251</a></li>
                         <li><a href="mailto:infoyour@gmail.com"><i class="fas fa-envelope"></i> infoyour@gmail.com</a>
                         </li>
@@ -97,7 +98,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">about</a>
@@ -124,7 +125,7 @@
                         <a class="nav-link" href="blog.html">blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">contact</a>
+                        <a class="nav-link active" href="contact.html">contact</a>
                     </li>
                 </ul>
                 <ul class="wsus__right_menu d-flex flex-wrap">
@@ -174,59 +175,67 @@
     <section class="wsus__contact mt_100 xs_mt_70 mb_100 xs_mb_70">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4">
-                    <div class="wsus__contact_info">
-                        <span class="wsus__contact_icon">
-                            <i class="fas fa-phone-alt"></i>
-                        </span>
-                        <div class="contact_text">
-                            <a href="callto:+882345678991">+88 234 567 8991</a>
-                            <a href="callto:+885629873214">+88 562 987 3214</a>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-12">
+                            <div class="wsus__contact_info">
+                                <span class="wsus__contact_icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </span>
+                                <div class="contact_text">
+                                    <a href="callto:+882345678991">+88 234 567 8991</a>
+                                    <a href="callto:+885629873214">+88 562 987 3214</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="wsus__contact_info">
-                        <span class="wsus__contact_icon">
-                            <i class="fas fa-envelope"></i>
-                        </span>
-                        <div class="contact_text">
-                            <a href="mailto:infoyour@gmail.com">infoyour@gmail.com</a>
-                            <a href="mailto:infoyour@gmail.com">+infoyour@gmail.com</a>
+                        <div class="col-12 col-md-6 col-lg-12">
+                            <div class="wsus__contact_info">
+                                <span class="wsus__contact_icon">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                                <div class="contact_text">
+                                    <a href="mailto:infoyour@gmail.com">infoyour@gmail.com</a>
+                                    <a href="mailto:infoyour@gmail.com">+infoyour@gmail.com</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="wsus__contact_info m-0">
-                        <span class="wsus__contact_icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </span>
-                        <div class="contact_text">
-                            <p>374 FA Tower, Bell William
-                                Bloibvd 271, IL, USA</p>
+                        <div class="col-12 col-md-6 col-lg-12">
+                            <div class="wsus__contact_info m-0">
+                                <span class="wsus__contact_icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </span>
+                                <div class="contact_text">
+                                    <p>374 FA Tower, Bell William
+                                        Bloibvd 271, IL, USA</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-8">
+                <div class="col-xl-8 col-lg-8">
                     <div class="contact_input  comment_input">
                         <h4>Feel Free to Get in Touch</h4>
                         <form>
                             <div class="row">
-                                <div class="col-xl-6">
+                                <div class="col-xl-6 col-md-6">
                                     <div class="wsus__comment_imput_single">
                                         <label>name</label>
                                         <input type="text" placeholder="Name">
                                     </div>
                                 </div>
-                                <div class="col-xl-6">
+                                <div class="col-xl-6 col-md-6">
                                     <div class="wsus__comment_imput_single">
                                         <label>phone</label>
                                         <input type="text" placeholder="Phone">
                                     </div>
                                 </div>
-                                <div class="col-xl-6">
+                                <div class="col-xl-6 col-md-6">
                                     <div class="wsus__comment_imput_single">
                                         <label>email</label>
                                         <input type="email" placeholder="Email">
                                     </div>
                                 </div>
-                                <div class="col-xl-6">
+                                <div class="col-xl-6 col-md-6">
                                     <div class="wsus__comment_imput_single">
                                         <label>subject</label>
                                         <input type="text" placeholder="Subject">
@@ -236,23 +245,23 @@
                                     <div class="wsus__comment_imput_single">
                                         <label>message</label>
                                         <textarea rows="5" placeholder="Write a Review"></textarea>
-                                        <button class="common_btn">submit</button>
                                     </div>
+                                    <button class="common_btn">submit</button>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="row mt_100 xs_mt_70">
-                <div class="col-xl-4">
+            <div class="row mt_100 xs_mt_45">
+                <div class="col-xl-4 col-md-6">
                     <div class="wsus__support_text">
                         <span class="icon"><i class="fas fa-user-headset" aria-hidden="true"></i></span>
                         <p>Support Time <span>09.00am to 10.00pm</span> Friday Off </p>
                         <img src="images/contact_img.jpg" alt="contact" class="img-fluid w-100">
                     </div>
                 </div>
-                <div class="col-xl-8">
+                <div class="col-xl-8 col-md-6">
                     <div class="contact_map">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.501646981442!2d90.38105271478658!3d23.871823984529634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c40fb857cb01%3A0xb6ca60a98b4c89e2!2sUttara%2012%20No.%20Sector%20park!5e0!3m2!1sen!2sbd!4v1659944833197!5m2!1sen!2sbd"
@@ -275,7 +284,7 @@
     <footer class="pt_100 xs_pt_70">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-7 col-lg-4">
                     <div class="wsus__footer_contact">
                         <a class="footer_logo" href="index.html">
                             <img src="images/Logo.png" alt="CleanMax" class="img-fluid">
@@ -294,7 +303,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 col-md-5 col-lg-2">
                     <div class="wsus__footer_content">
                         <h4>Quick Link</h4>
                         <ul>
@@ -306,7 +315,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 col-md-5 order-md-4 col-lg-2 order-lg-3">
                     <div class="wsus__footer_content">
                         <h4>Our Category</h4>
                         <ul>
@@ -318,7 +327,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-7 order-md-3 col-lg-4 order-lg-3">
                     <div class="wsus__footer_payment">
                         <h4>Secure Payments</h4>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have

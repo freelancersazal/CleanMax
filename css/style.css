@@ -491,6 +491,10 @@ button {
     border: none;
     padding: 15px 20px;
     border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 
 .search_form button {
@@ -1429,13 +1433,10 @@ button {
     font-size: 24px;
     font-weight: 700;
     color: var(--colorBlack);
-    margin-bottom: 18px;
-    padding-bottom: 20px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    border-bottom: 1px solid rgb(214, 216, 253);
     transition: all 0.3s linear 0s;
     -webkit-transition: all 0.3s linear 0s;
     -moz-transition: all 0.3s linear 0s;
@@ -1460,6 +1461,12 @@ button {
 
 .wsus__single_blog a:hover {
     color: var(--colorPrimary);
+}
+
+.wsus__single_blog_text ul {
+    margin-top: 18px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(214, 216, 253);
 }
 
 /* ===================================
@@ -2708,11 +2715,6 @@ footer {
     padding: 12px 20px;
 }
 
-.wsus__blog_page .wsus__single_blog {
-    margin-top: 0px;
-    margin-bottom: 25px;
-}
-
 /* ==================================
     BLOG PAGE END
 =================================== */
@@ -2749,6 +2751,8 @@ footer {
     font-weight: 400;
     color: var(--paraColor);
     margin-right: 25px;
+    display: flex;
+    align-items: center;
 }
 
 .wsus__blog_details_text .details_bloger li span {
@@ -3125,7 +3129,6 @@ footer {
     background: rgb(233, 247, 250);
     border-radius: 5px;
     padding: 25px;
-    padding-bottom: 5px;
 }
 
 .comment_input h4 {
@@ -3358,7 +3361,7 @@ footer {
     font-size: 18px;
     font-weight: 400;
     color: var(--colorWhite);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .wsus__sellar_top_text a,
@@ -3367,13 +3370,18 @@ footer {
     font-size: 18px;
     font-weight: 400;
     color: var(--colorWhite);
-    margin-top: 10px;
+    margin-top: 15px;
+    position: relative;
+    padding-left: 40px;
 }
 
 .wsus__sellar_top_text a span,
 .wsus__sellar_top_text p span {
+    position: absolute;
     width: 30px;
     height: 30px;
+    top: 0;
+    left: 0;
     display: inline-block;
     background: var(--colorWhite);
     text-align: center;
@@ -3470,6 +3478,7 @@ footer {
     font-weight: 600;
     background: rgb(226, 239, 253);
     overflow: hidden;
+    padding-right: 65px;
 }
 
 .wsus__faq_area .accordion-item button:not(.collapsed) {
@@ -3491,6 +3500,8 @@ footer {
 .wsus__faq_area .accordion-button::after {
     background-image: url("../images/plus.png");
     z-index: 1;
+    right: 17px;
+    position: absolute;
 }
 
 .wsus__faq_area .accordion-button:not(.collapsed)::after {
@@ -3525,7 +3536,7 @@ footer {
 }
 
 .wsus__faq_img {
-    height: 100%;
+    height: 97%;
     margin-top: 25px;
 }
 
@@ -3734,7 +3745,7 @@ footer {
     content: "";
     background: var(--colorPrimary);
     width: 100%;
-    height: 0.5px;
+    height: 1px;
     top: 50%;
     right: 0px;
     transform: translateY(-50%);
@@ -4351,7 +4362,6 @@ footer {
     border-radius: 5px;
     text-align: center;
     background: var(--colorPrimary);
-    border: 1px solid #eee;
 }
 
 .wsus__dashboard_info.green {

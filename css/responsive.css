@@ -32,6 +32,54 @@
     /* home page end */
 
 
+    /* blog details start */
+    .wsus__single_comm_text {
+        width: 83%;
+    }
+
+    .wsus__related_blog ul li .text {
+        width: 69%;
+    }
+
+    .wsus__blog_tags ul li a {
+        font-size: 14px;
+        padding: 5px 14px;
+    }
+
+    /* blog details end */
+
+    .wsus__single_blog_text a {
+        font-size: 22px;
+    }
+
+    /* booking start */
+    .wsus__booking_payment li {
+        width: 104px;
+        height: 50px;
+    }
+
+    /* booking end */
+
+
+    /* service details start */
+    .wsus__single_review_top .text {
+        width: 83%;
+    }
+
+    .wsus__package {
+        padding: 30px;
+    }
+
+    .wsus__service_provider {
+        padding: 20px;
+    }
+
+    /* service details end */
+
+
+
+
+
 
 
 }
@@ -108,7 +156,129 @@
     /* about page end */
 
 
+    /* blog details start */
+    .wsus__blog_details_img {
+        height: 400px;
+    }
 
+    .wsus__blog_details_text h2 {
+        font-size: 25px;
+    }
+
+    .blog_det_button li a {
+        padding: 20px;
+    }
+
+    .blog_det_button li a h3 {
+        font-size: 22px;
+    }
+
+    .wsus__single_comm_text {
+        width: 79%;
+    }
+
+    .wsus__related_blog ul li .text {
+        width: 85%;
+    }
+
+    .blog_sidebar {
+        padding: 15px;
+    }
+
+    .wsus__related_blog ul li .text a {
+        font-size: 16px;
+    }
+
+    .wsus__related_blog ul li .text {
+        width: 64%;
+    }
+
+    .wsus__blog_newsletter_overlay {
+        padding: 15px;
+    }
+
+    .wsus__blog_det_slider .venobox {
+        height: 130px;
+    }
+
+    /* blog details end */
+
+
+    .wsus__blog_page .wsus__single_blog_img {
+        height: 200px;
+    }
+
+    .wsus__blog_page .wsus__single_blog_text a {
+        font-size: 18px;
+    }
+
+    .wsus__blog_page .wsus__single_blog_text {
+        padding: 20px;
+    }
+
+    /* booking start */
+    .wsus__booking_img {
+        height: 350px;
+    }
+
+    .wsus__booking_payment li {
+        width: 87px;
+        height: 45px;
+    }
+
+    /* booking end */
+
+    .wsus__contact_info .contact_text {
+        padding: 49.5px 20px;
+    }
+
+    .wsus__faq_area .accordion-item button {
+        font-size: 16px;
+    }
+
+    .wsus__sellar_search form {
+        width: 40%;
+    }
+
+    /* service details start */
+    .wsus__single_review_top .text {
+        width: 80%;
+    }
+
+    .wsus__service_details_img {
+        height: 400px;
+    }
+
+    .wsus__package {
+        padding: 25px;
+    }
+
+    .wsus__service_provider {
+        padding: 5px;
+    }
+
+    .wsus__service_provider img {
+        margin-top: 25px;
+    }
+
+    /* service details end */
+
+
+    /* dashboard start */
+    .wsus__dashboard_info {
+        padding: 20px;
+    }
+
+    .wsus_dashboard_order table tr th,
+    .wsus_dashboard_order table tr td {
+        width: 150px;
+    }
+
+    .wsus__dashboard .wsus__single_review_top .text {
+        width: 79%;
+    }
+
+    /* dashboard end */
 
 }
 
@@ -296,8 +466,6 @@
     }
 
     .wsus__single_blog_text a {
-        padding-bottom: 7px;
-        margin-bottom: 12px;
         font-size: 22px;
     }
 
@@ -447,7 +615,158 @@
     /* about page end */
 
 
+    /* blog details start */
+    .wsus__blog_details_img {
+        height: 400px;
+    }
 
+    .wsus__blog_details_text h2 {
+        font-size: 25px;
+    }
+
+    .blog_det_button li a {
+        padding: 20px;
+    }
+
+    .blog_det_button li a h3 {
+        font-size: 22px;
+    }
+
+    .wsus__single_comm_text {
+        width: 82%;
+    }
+
+    .comment_input {
+        margin-bottom: 25px;
+    }
+
+    .wsus__related_blog ul li .text {
+        width: 85%;
+    }
+
+    /* blog details end */
+
+
+    /* booking  start */
+    .wsus__booking_payment li {
+        width: 99px;
+        height: 50px;
+    }
+
+    .wsus__booking_button_area {
+        margin-bottom: 25px;
+    }
+
+    .wsus__booking_img {
+        height: 350px;
+    }
+
+    /* booking  end */
+
+
+    /* contact start */
+    .contact_input {
+        margin-top: 25px;
+    }
+
+    /* contact end */
+
+    .wsus__faq_area .accordion-item button {
+        font-size: 16px;
+    }
+
+    /* sellar page start */
+    .wsus__sellar_top_text {
+        padding-left: 0;
+    }
+
+    .wsus__sellar_top_text h2 {
+        font-size: 30px;
+    }
+
+    .wsus__sellar_top_text ul li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .wsus__sellar_search h3 {
+        font-size: 35px;
+    }
+
+    .wsus__sellar_search form {
+        width: 50%;
+    }
+
+    /* sellar page end */
+
+
+    /* service details start */
+    .wsus__service_provider {
+        padding: 20px;
+        margin-top: 0 !important;
+    }
+
+    .wsus__service_details_img {
+        height: 400px;
+    }
+
+    .wsus__service_details_content {
+        margin-bottom: 25px;
+    }
+
+    .wsus__package {
+        padding: 30px;
+    }
+
+    .wsus__single_review_top .text {
+        width: 82%;
+    }
+
+    /* service details end */
+
+
+
+    /* dashboard start */
+    .wsus__dashboard_content {
+        padding: 0;
+    }
+
+    .wsus__dashboard_menu {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .wsus__dashboard_info {
+        margin-bottom: 25px;
+    }
+
+    .wsus_dash_personal_info {
+        padding: 15px;
+        margin-top: 0;
+    }
+
+    .wsus_dash_personal_info h4 {
+        font-size: 16px;
+    }
+
+    .wsus__dashboard_area {
+        border: none;
+    }
+
+    .info_modal .modal-content {
+        padding: 0;
+        margin-top: 67px;
+    }
+
+    .wsus__comment_imput_single {
+        margin-bottom: 10px;
+    }
+
+    .wsus__dashboard .comment_input {
+        margin-bottom: 0;
+    }
+
+    /* dashboard end */
 
 
 }
@@ -581,16 +900,16 @@
     }
 
     .wsus__bannert_text {
-        padding-top: 133px;
+        padding-top: 195px;
     }
 
     .wsus__banner {
         height: auto;
-        padding-bottom: 140px;
+        padding-bottom: 193px;
     }
 
     .wsus__banner_counter {
-        top: 94%;
+        top: 102%;
         right: auto;
         transform: translateX(-50%);
         left: 50%;
@@ -665,10 +984,6 @@
 
     .wsus__single_testimonial_text h3 {
         font-size: 18px;
-    }
-
-    .wsus__single_blog_text a {
-        padding-bottom: 15px;
     }
 
     .wsus__subscribe_text {
@@ -808,10 +1123,222 @@
     /* about page end */
 
 
+    /* blog details start */
+    .wsus__blog_details_img {
+        height: 300px;
+    }
+
+    .wsus__blog_details_text h2 {
+        font-size: 25px;
+    }
+
+    .blog_tags_share .tags {
+        margin-bottom: 15px;
+    }
+
+    .blog_det_button li a {
+        padding: 20px;
+    }
+
+    .blog_det_button li a h3 {
+        font-size: 22px;
+    }
+
+    .wsus__single_comm_text {
+        width: 75%;
+    }
+
+    .comment_input {
+        margin-bottom: 25px;
+    }
+
+    .wsus__related_blog ul li .text {
+        width: 78%;
+    }
+
+    /* blog details end */
 
 
+    /* booking  start */
+    .wsus__booking_payment li {
+        width: 102px;
+        height: 50px;
+        border-right: 1px solid rgb(238, 238, 238) !important;
+        border-bottom: 1px solid rgb(238, 238, 238) !important;
+    }
+
+    .wsus__booking_button_area {
+        margin-bottom: 25px;
+    }
+
+    .wsus__booking_text h2 {
+        font-size: 20px;
+    }
+
+    .wsus__booking_location h3,
+    .wsus__booking_pic_up h3 {
+        font-size: 20px;
+    }
+
+    .wsus__booking_pic_up ul li a {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .wsus__booking_img {
+        height: 300px;
+    }
+
+    /* booking  end */
+
+    /* contact start */
+    .contact_input {
+        margin-top: 25px;
+    }
+
+    .comment_input h4 {
+        font-size: 20px;
+    }
+
+    .contact_map {
+        height: 300px;
+    }
+
+    /* contact end */
+
+    .wsus__faq_area .accordion-item button {
+        font-size: 16px;
+    }
+
+    /* sellar page start */
+    .wsus__sellar_top_text {
+        padding-left: 0;
+    }
+
+    .wsus__sellar_top_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__sellar_top_text ul li {
+        margin-bottom: 10px;
+    }
+
+    .wsus__sellar_top_img {
+        margin-top: 37px;
+        margin-bottom: 30px;
+        height: 450px;
+    }
+
+    .wsus__sellar_top_overlay {
+        padding-bottom: 60px;
+    }
+
+    .wsus__sellar_search h3 {
+        font-size: 25px;
+    }
+
+    .wsus__sellar_search form {
+        width: 62%;
+    }
+
+    .wsus__sellar_search {
+        margin-top: 5px;
+    }
+
+    /* sellar page end */
+
+    /* service details start */
+    .wsus__service_details_img {
+        height: 300px;
+    }
+
+    .wsus__service_details_text h2 {
+        font-size: 20px;
+    }
+
+    .wsus__service_details_content {
+        margin-bottom: 25px;
+    }
+
+    .wsus__single_review_top img {
+        margin-bottom: 15px;
+    }
+
+    .wsus__single_review_top .text {
+        width: 75%;
+    }
+
+    .wsus__search_filter ul li {
+        width: 50%;
+        margin: 2px 0px;
+    }
+
+    .wsus__search_filter {
+        border-radius: 15px;
+    }
+
+    /* service details end */
 
 
+    /* sign in start */
+    .wsus__login_area h2 {
+        font-size: 30px;
+    }
+
+    /* sign in end */
+
+
+    /* dashboard start */
+    .wsus__dashboard_content {
+        padding: 0;
+    }
+
+    .wsus__dashboard_menu {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .wsus__dashboard_info {
+        margin-bottom: 25px;
+    }
+
+    .wsus_dash_personal_info {
+        padding: 15px;
+        margin-top: 0;
+    }
+
+    .wsus_dash_personal_info h4 {
+        font-size: 16px;
+    }
+
+    .wsus__dashboard_area {
+        border: none;
+    }
+
+    .wsus_dashboard_order table tr th,
+    .wsus_dashboard_order table tr td {
+        width: 140px;
+    }
+
+    .wsus_dashboard_body h3 {
+        font-size: 18px;
+    }
+
+    .info_modal .modal-content {
+        width: 450px !important;
+        padding: 0;
+        margin-top: 67px;
+    }
+
+    .wsus__comment_imput_single {
+        margin-bottom: 10px;
+    }
+
+    .wsus__dashboard .comment_input {
+        margin-bottom: 0;
+    }
+
+    /* dashboard end */
 
 }
 
@@ -954,16 +1481,16 @@
     }
 
     .wsus__bannert_text {
-        padding-top: 177px;
+        padding-top: 243px;
     }
 
     .wsus__banner {
         height: auto;
-        padding-bottom: 175px;
+        padding-bottom: 238px;
     }
 
     .wsus__banner_counter {
-        top: 100%;
+        top: 110%;
         right: auto;
         transform: translateX(-50%);
         left: 50%;
@@ -1091,7 +1618,6 @@
 
     .wsus__single_blog_text a {
         font-size: 20px;
-        padding-bottom: 15px;
     }
 
     .wsus__subscribe_text {
@@ -1244,9 +1770,332 @@
     /* about page end */
 
 
+    /* blog details start */
+    .wsus__blog_details_img {
+        height: 220px;
+    }
+
+    .wsus__blog_details_text .details_bloger li {
+        margin: 5px 0px 5px 0px;
+        width: 100%;
+    }
+
+    .wsus__blog_details_text h2 {
+        font-size: 20px;
+    }
+
+    .wsus__blog_quot_text {
+        padding: 20px 20px 20px 40px;
+    }
+
+    .wsus__blog_quot_text::before {
+        left: 2px;
+    }
+
+    .wsus__blog_quot_text::after {
+        left: 16px;
+    }
+
+    .blog_tags_share .tags {
+        margin-bottom: 15px;
+    }
+
+    .blog_det_button li {
+        width: 100%;
+        margin: 2px 0px;
+    }
+
+    .blog_det_button li a {
+        padding: 20px;
+    }
+
+    .blog_det_button li a h3 {
+        font-size: 22px;
+    }
+
+    .wsus__single_comment {
+        padding: 15px;
+    }
+
+    .wsus__single_comm_text h3 {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .wsus__single_comm_text h3 span {
+        display: table;
+        margin-top: 5px;
+    }
+
+    .comment_input {
+        padding: 15px;
+        margin-bottom: 25px;
+    }
+
+    .blog_sidebar {
+        padding: 15px;
+    }
+
+    .wsus__related_blog ul li .text {
+        width: 66%;
+    }
+
+    .wsus__related_blog ul li .text a {
+        font-size: 16px;
+    }
+
+    .wsus__blog_newsletter_overlay {
+        padding: 15px;
+    }
+
+    /* blog details end */
+
+    /* booking  start */
+    .booking_bar li {
+        padding: 5px 15px;
+        font-size: 12px;
+        margin: 0px 12px 0px 0px;
+    }
+
+    .booking_bar li::after {
+        display: none;
+    }
+
+    .wsus__booking_img {
+        height: 300px;
+    }
+
+    .wsus__booking_confirm_text h3 {
+        font-size: 20px;
+    }
+
+    .wsus__booking_confirm_text p span {
+        width: 100%;
+    }
+
+    .wsus__booking_payment li {
+        width: 74px;
+        height: 30px;
+        border-right: 1px solid rgb(238, 238, 238) !important;
+        border-bottom: 1px solid rgb(238, 238, 238) !important;
+    }
+
+    .wsus__booking_button_area {
+        margin-bottom: 25px;
+    }
+
+    .wsus__booking_text {
+        padding: 15px;
+    }
+
+    .wsus__booking_text h2 {
+        font-size: 20px;
+    }
+
+    .wsus__booking_location {
+        padding: 15px 15px 25px 15px;
+    }
+
+    .wsus__booking_calendar,
+    .wsus__booking_pic_up {
+        padding: 15px;
+    }
+
+    .wsus__booking_location h3,
+    .wsus__booking_pic_up h3 {
+        font-size: 20px;
+    }
+
+    .wsus__booking_pic_up ul li a {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    /* booking  end */
+
+    /* contact start */
+    .contact_input {
+        margin-top: 25px;
+    }
+
+    .comment_input h4 {
+        font-size: 20px;
+    }
+
+    .contact_map {
+        height: 250px;
+    }
+
+    /* contact end */
+
+    .wsus__faq_area .accordion-item button {
+        font-size: 15px;
+    }
+
+    /* sellar page start */
+    .wsus__sellar_top_text {
+        padding-left: 0;
+    }
+
+    .wsus__sellar_top_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__sellar_top_text ul li {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .wsus__sellar_top_img {
+        margin-top: 37px;
+        margin-bottom: 30px;
+    }
+
+    .wsus__sellar_top_overlay {
+        padding-bottom: 60px;
+    }
+
+    .wsus__sellar_search h3 {
+        font-size: 25px;
+    }
+
+    .wsus__sellar_search form {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* sellar page end */
 
 
+    /* service details start */
+    .wsus__service_details_img {
+        height: 220px;
+    }
+
+    .wsus__service_details_text h2 {
+        font-size: 20px;
+    }
+
+    .wsus__service_details_text .nav-pills li {
+        width: 100%;
+        border-bottom: 1px solid var(--colorWhite);
+    }
+
+    .wsus__service_details_content {
+        margin-bottom: 25px;
+    }
+
+    .wsus__package {
+        padding: 30px;
+    }
+
+    .tab_details .details_time li span {
+        width: 110px;
+    }
+
+    .wsus__service_provider {
+        padding: 5px;
+    }
+
+    .wsus__service_provider img {
+        margin-top: 30px;
+    }
+
+    .wsus__single_review_top img {
+        margin-bottom: 15px;
+    }
+
+    .wsus__single_review_top .text {
+        width: 100%;
+    }
+
+    .wsus__search_filter ul li {
+        width: 100%;
+        margin: 2px 0px;
+    }
+
+    .wsus__search_filter {
+        border-radius: 15px;
+    }
+
+    /* service details end */
 
 
+    /* sign in start */
+    .wsus__login_area {
+        padding: 15px;
+    }
+
+    .wsus__login_area h2 {
+        font-size: 30px;
+    }
+
+    /* sign in end */
+
+
+    /* dashboard start */
+    .wsus__dashboard_content {
+        padding: 0;
+    }
+
+    .wsus__dashboard_menu {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .wsus__dashboard_info {
+        margin-bottom: 25px;
+    }
+
+    .wsus_dash_personal_info {
+        padding: 15px;
+        margin-top: 0;
+    }
+
+    .wsus_dash_personal_info h4 {
+        font-size: 16px;
+    }
+
+    .wsus_dash_personal_info p span {
+        width: 100%;
+    }
+
+    .wsus__dashboard_area {
+        border: none;
+    }
+
+    .wsus_dashboard_order table tr th,
+    .wsus_dashboard_order table tr td {
+        width: 140px;
+    }
+
+    .wsus_dashboard_body h3 {
+        font-size: 18px;
+    }
+
+    .info_modal .modal-content {
+        width: 310px !important;
+        padding: 0;
+        margin-top: 67px;
+    }
+
+    .wsus__comment_imput_single {
+        margin-bottom: 10px;
+    }
+
+    .wsus__dashboard .modal-body .comment_input {
+        margin-bottom: 0;
+    }
+
+    .wsus__dashboard .modal-content {
+        padding: 0;
+        width: 310px;
+    }
+
+    .wsus__dashboard .modal-footer button {
+        padding: 10px 10px;
+    }
+
+    /* dashboard end */
 
 }
