@@ -31,7 +31,6 @@
 
     /* home page end */
 
-
     /* blog details start */
     .wsus__single_comm_text {
         width: 83%;
@@ -60,7 +59,6 @@
 
     /* booking end */
 
-
     /* service details start */
     .wsus__single_review_top .text {
         width: 83%;
@@ -75,16 +73,7 @@
     }
 
     /* service details end */
-
-
-
-
-
-
-
 }
-
-
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
 
@@ -147,14 +136,17 @@
 
     /* home page end */
 
-
     /* about page start */
     .wsus__single_work {
         padding: 20px;
     }
 
-    /* about page end */
+    .wsus__about_reasons_img .img_2 {
+        width: 280px !important;
+        height: 280px !important;
+    }
 
+    /* about page end */
 
     /* blog details start */
     .wsus__blog_details_img {
@@ -202,7 +194,6 @@
     }
 
     /* blog details end */
-
 
     .wsus__blog_page .wsus__single_blog_img {
         height: 200px;
@@ -263,7 +254,6 @@
 
     /* service details end */
 
-
     /* dashboard start */
     .wsus__dashboard_info {
         padding: 20px;
@@ -279,10 +269,7 @@
     }
 
     /* dashboard end */
-
 }
-
-
 
 @media (min-width: 768px) and (max-width: 991.99px) {
 
@@ -474,7 +461,7 @@
     }
 
     .wsus__subscribe_text {
-        margin: 30px 35px 35px 35px;
+        margin: 30px 35px 35px 35px !important;
     }
 
     .wsus__subscribe_text h2 {
@@ -551,7 +538,6 @@
 
     /* 404 page end  */
 
-
     /* about page start */
     .wsus__breadcrumb_overlay {
         padding: 190px 0px 73px;
@@ -577,7 +563,7 @@
 
     .wus__about_rating {
         width: 100%;
-        bottom: -125px;
+        bottom: -125px !important;
     }
 
     .wus__about_rating ul {
@@ -614,7 +600,6 @@
 
     /* about page end */
 
-
     /* blog details start */
     .wsus__blog_details_img {
         height: 400px;
@@ -646,7 +631,6 @@
 
     /* blog details end */
 
-
     /* booking  start */
     .wsus__booking_payment li {
         width: 99px;
@@ -662,7 +646,6 @@
     }
 
     /* booking  end */
-
 
     /* contact start */
     .contact_input {
@@ -699,7 +682,6 @@
 
     /* sellar page end */
 
-
     /* service details start */
     .wsus__service_provider {
         padding: 20px;
@@ -724,11 +706,9 @@
 
     /* service details end */
 
-
-
     /* dashboard start */
     .wsus__dashboard_content {
-        padding: 0;
+        padding: 0 !important;
     }
 
     .wsus__dashboard_menu {
@@ -768,12 +748,11 @@
 
     /* dashboard end */
 
-
+    .single_service_header p {
+        width: 100%;
+        margin-top: 20px;
+    }
 }
-
-
-
-
 
 @media (min-width: 576px) and (max-width: 767.99px) {
 
@@ -1036,7 +1015,6 @@
 
     /* home page end */
 
-
     /* 404 page start  */
     .wsus__404_text h3 {
         font-size: 23px;
@@ -1061,7 +1039,6 @@
 
     /* 404 page end  */
 
-
     /* about page start */
     .wsus__breadcrumb_overlay {
         padding: 190px 0px 55px;
@@ -1085,7 +1062,7 @@
         width: 100%;
         display: block;
         height: auto;
-        bottom: -165px;
+        bottom: -165px !important;
     }
 
     .wus__about_rating ul {
@@ -1122,7 +1099,6 @@
 
     /* about page end */
 
-
     /* blog details start */
     .wsus__blog_details_img {
         height: 300px;
@@ -1157,7 +1133,6 @@
     }
 
     /* blog details end */
-
 
     /* booking  start */
     .wsus__booking_payment li {
@@ -1279,7 +1254,6 @@
 
     /* service details end */
 
-
     /* sign in start */
     .wsus__login_area h2 {
         font-size: 30px;
@@ -1290,7 +1264,7 @@
 
     /* dashboard start */
     .wsus__dashboard_content {
-        padding: 0;
+        padding: 0 !important;
     }
 
     .wsus__dashboard_menu {
@@ -1339,12 +1313,7 @@
     }
 
     /* dashboard end */
-
 }
-
-
-
-
 
 @media (max-width: 575.99px) {
 
@@ -1515,7 +1484,7 @@
     }
 
     .wsus__featured_services_text {
-        padding: 15px;
+        padding: 15px !important;
         width: 100%;
     }
 
@@ -1683,7 +1652,6 @@
 
     /* home page end */
 
-
     /* 404 page start  */
     .wsus__404_text h3 {
         font-size: 23px;
@@ -1708,7 +1676,6 @@
 
     /* 404 page end  */
 
-
     /* about page start */
     .wsus__breadcrumb_overlay {
         padding: 190px 0px 55px;
@@ -1732,7 +1699,7 @@
         width: 100%;
         display: block;
         height: auto;
-        bottom: -165px;
+        bottom: -165px !important;
     }
 
     .wus__about_rating ul {
@@ -1768,7 +1735,6 @@
     }
 
     /* about page end */
-
 
     /* blog details start */
     .wsus__blog_details_img {
@@ -1966,7 +1932,6 @@
 
     /* sellar page end */
 
-
     /* service details start */
     .wsus__service_details_img {
         height: 220px;
@@ -2020,7 +1985,6 @@
 
     /* service details end */
 
-
     /* sign in start */
     .wsus__login_area {
         padding: 15px;
@@ -2032,10 +1996,9 @@
 
     /* sign in end */
 
-
     /* dashboard start */
     .wsus__dashboard_content {
-        padding: 0;
+        padding: 0 !important;
     }
 
     .wsus__dashboard_menu {
@@ -2096,6 +2059,14 @@
         padding: 10px 10px;
     }
 
+    .wsus__dashboard .comment_input {
+        margin-bottom: 0;
+    }
+
     /* dashboard end */
 
+    .wsus__login_area .form-check label,
+    .wsus__login_imput a {
+        font-size: 15px;
+    }
 }

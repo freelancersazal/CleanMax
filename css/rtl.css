@@ -1,0 +1,1039 @@
+* {
+    direction: rtl;
+    text-align: right;
+}
+
+.slick-list {
+    direction: ltr;
+}
+
+/* home page start */
+.wsus__topbar_icon li a {
+    margin-right: 0;
+    margin-left: 13px;
+}
+
+.wsus__topbar_language li a i {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.wsus__topbar_language {
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 20px;
+    padding-right: 30px;
+}
+
+.wsus__topbar_language::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__select_language {
+    left: auto;
+    right: 0;
+}
+
+.wsus__topbar_info li a,
+.wsus__topbar_info li span {
+    padding-left: 0;
+    padding-right: 30px;
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.main_menu .wsus__right_menu li:last-child a {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.wsus__topbar_info li a::after {
+    left: auto;
+    right: 0;
+}
+
+.main_menu .wsus__right_menu li .hire_btn i {
+    margin-left: 0;
+    margin-right: 5px;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
+
+.wsus__topbar_language li a img {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.search_form {
+    right: auto;
+    left: 0;
+}
+
+.search_form button {
+    right: auto;
+    left: 6px;
+}
+
+.main_menu .wsus__droap_menu {
+    left: auto;
+    right: 0;
+}
+
+.nice-select {
+    text-align: right !important;
+}
+
+.nice-select:after {
+    right: auto;
+    left: 20px;
+}
+
+.nice-select .option {
+    text-align: right;
+}
+
+.featured_service_header img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.featured_service_header .text_area p span {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.wsus__featured_services_text {
+    padding: 15px 32px 15px 15px;
+}
+
+.wsus__featured_services_img .category {
+    right: auto;
+    left: -12px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.wsus__featured_services_img .category::after {
+    transform: rotate(51deg);
+    right: auto;
+    left: 5px;
+    -webkit-transform: rotate(51deg);
+    -moz-transform: rotate(51deg);
+    -ms-transform: rotate(51deg);
+    -o-transform: rotate(51deg);
+}
+
+.wsus__single_services .category {
+    right: auto;
+    left: -12px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.wsus__single_services .category::after {
+    right: auto;
+    left: 5px;
+    transform: rotate(49deg);
+    -webkit-transform: rotate(49deg);
+    -moz-transform: rotate(49deg);
+    -ms-transform: rotate(49deg);
+    -o-transform: rotate(49deg);
+}
+
+.wsus__single_services_text h4 {
+    text-align: left;
+}
+
+.wsus__single_services .book_btn {
+    left: auto;
+    right: -12px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.wsus__single_services .book_btn::after {
+    transform: rotate(49deg);
+    left: auto;
+    right: 5px;
+    -webkit-transform: rotate(49deg);
+    -moz-transform: rotate(49deg);
+    -ms-transform: rotate(49deg);
+    -o-transform: rotate(49deg);
+}
+
+.single_service_header p span {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.single_service_header .img_area img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__app_download_text ul li a {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__app_download_text ul li a span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__single_testimonial_text img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.wsus__single_testimonial .quot_icon {
+    left: auto;
+    right: 30px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__single_testimonial p {
+    border-left: 0;
+    border-right: 5px solid var(--colorPrimary);
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.wsus__subscribe_text form button {
+    right: auto;
+    left: 10px;
+}
+
+.wsus__subscribe_text {
+    margin: 60px 70px 70px 0px;
+}
+
+.wsus__footer_contact ul li a {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__footer_contact .info {
+    padding-left: 0;
+    padding-right: 35px;
+}
+
+.wsus__footer_contact .info span {
+    left: auto;
+    right: 0;
+}
+
+.wsus__footer_content ul li a {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.wsus__footer_content ul li a::after {
+    left: auto;
+    right: 0;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.wsus__footer_content ul li a:hover {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.wsus__footer_content ul li a:hover::after {
+    left: auto;
+    right: 5px;
+}
+
+.wsus__footer_payment ul li {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.main_menu .wsus__droap_menu li a::after {
+    left: auto;
+    right: -1px;
+}
+
+.wsus__scroll_btn {
+    right: auto;
+    left: 10px;
+}
+
+.wsus__banner_counter {
+    right: auto;
+    left: -320px;
+}
+
+/* home page end */
+
+/* about page start */
+.wsus__breadcrumb ul li a {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.wsus__breadcrumb ul li a::after {
+    top: 3px;
+    right: auto;
+    left: -20px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.wsus__about_us_text ul li {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.wsus__about_us_text ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.wsus__about_us_img .img_2 {
+    right: auto;
+    left: 30px;
+}
+
+.wus__about_rating {
+    bottom: 0px;
+    left: auto;
+    right: 0;
+    border-top: 5px solid var(--colorWhite);
+    border-right: 0;
+    border-left: 5px solid var(--colorWhite);
+}
+
+.wsus__about_reasons_text ul {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__about_reasons_text ul li::before {
+    left: auto;
+    right: -35px;
+}
+
+.wsus__about_reasons_text ul::after {
+    border-left: 0;
+    border-right: 1px dashed var(--colorPrimary);
+    top: 0px;
+    left: auto;
+    right: 1px;
+}
+
+.wsus__about_reasons_text ul li {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.wsus__about_reasons_text ul li::after {
+    left: auto;
+    right: -49px;
+}
+
+.wus__about_rating p span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__single_counter_img::before {
+    left: auto;
+    right: 100%;
+}
+
+.wsus__about_reasons_text ul li::after {
+    transform: translateY(-50%) rotateY(180deg);
+    -webkit-transform: translateY(-50%) rotateY(180deg);
+    -moz-transform: translateY(-50%) rotateY(180deg);
+    -ms-transform: translateY(-50%) rotateY(180deg);
+    -o-transform: translateY(-50%) rotateY(180deg);
+}
+
+.wsus__about_reasons_img .img_1 {
+    right: auto;
+    left: 0;
+}
+
+.wsus__about_reasons_img .img_2 {
+    left: auto;
+    right: 0;
+}
+
+/* about page end */
+
+/* blog details page start */
+.wsus__blog_details_text .details_bloger li {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.wsus__blog_details_text .details_bloger li span {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__blog_quot_text {
+    padding: 35px 70px 35px 35px;
+}
+
+.wsus__blog_quot_text::before {
+    left: auto;
+    right: 25px;
+}
+
+.wsus__blog_quot_text::after {
+    left: auto;
+    right: 40px;
+}
+
+.wsus__blog_quot_text::before {
+    left: auto;
+    right: 25px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__blog_quot_text h4 span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__blog_quot_text .quot_right {
+    right: auto;
+    left: 40px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.blog_details_list li {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.blog_details_list li::after {
+    left: auto;
+    right: 0;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.blog_tags_share .share ul li a {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.blog_tags_share span {
+    margin-right: 0;
+}
+
+.blog_det_button li.next a p i {
+    margin-left: 0;
+    margin-right: 10px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.blog_det_button li.previous a p i {
+    margin-right: 0;
+    margin-left: 10px;
+    transform: rotateY(182deg);
+    -webkit-transform: rotateY(182deg);
+    -moz-transform: rotateY(182deg);
+    -ms-transform: rotateY(182deg);
+    -o-transform: rotateY(182deg);
+}
+
+.blog_det_button li.next a h3 {
+    text-align: left;
+}
+
+.blog_sidebar form button {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__blog_newsletter button {
+    right: auto;
+    left: -1px;
+}
+
+.wsus__pagination nav ul li a i {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+/* blog details page end */
+
+/* booking start */
+.booking_bar li {
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+.booking_bar li::after {
+    left: auto;
+    right: 100%;
+}
+
+.wsus__booking_payment li {
+    border-right: 0;
+    border-left: 1px solid rgb(238, 238, 238);
+}
+
+.wsus__booking_summery ul li {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.wsus__booking_summery ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.calendar header .button {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.wsus__booking_list_text ul li {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.wsus__booking_list_text ul li::after {
+    top: 1px;
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__service_cart .images {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.wsus__service_cart .images .form-check {
+    padding-left: 0;
+}
+
+.wsus__service_cart .name .form-check input {
+    float: right;
+}
+
+.wsus__service_cart .name .form-check label {
+    margin-right: 25px;
+}
+
+input:checked {
+    transform: rotateY(180deg);
+}
+
+/* booking end */
+
+/* contact end */
+.wsus__contact_info::before {
+    right: auto;
+    left: -140px;
+}
+
+.wsus__contact_info::after {
+    right: auto;
+    left: -50px;
+}
+
+.wsus__contact_info .contact_text {
+    border-left: 0;
+    border-right: 1px solid var(--colorPrimary);
+}
+
+/* contact end */
+
+/* faq start */
+.wsus__faq_area .accordion-item button {
+    padding-right: 20px;
+    padding-left: 65px;
+}
+
+.wsus__faq_area .accordion-button::after {
+    right: auto;
+    left: 17px;
+}
+
+.wsus__faq_area .accordion-button.collapsed::before,
+.wsus__faq_area .accordion-item button:not(.collapsed)::before {
+    right: auto;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    left: -1px;
+}
+
+/* faq end */
+.wsus__pricacy_policy_text ul li {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.wsus__pricacy_policy_text ul li::after {
+    left: auto;
+    right: 0;
+}
+
+/* sellar start */
+.wsus__sellar_top_text ul li span {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__sellar_top_text ul li {
+    padding-right: 0;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__sellar_top_text a,
+.wsus__sellar_top_text p {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.wsus__sellar_top_text a span,
+.wsus__sellar_top_text p span {
+    left: auto;
+    right: 0;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__sellar_search form button {
+    right: auto;
+    left: 0;
+}
+
+.wsus__sellar_search form button i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.tab_details .list li {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.tab_details .list li::after {
+    left: auto;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.wsus__package ul li {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.wsus__package ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.tab_details .details_time li {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.tab_details .details_time li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__single_review_top img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.wsus__review_input .select_rating span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__sellar_search form input {
+    padding: 10px 20px 10px 125px;
+}
+
+/* sellar end */
+.wsus__login_area .form-check input {
+    float: right;
+}
+
+.wsus__login_area .form-check label {
+    margin-right: 25px;
+}
+
+/* dashboard start */
+.dasboard_header h2,
+.dasboard_header p {
+    text-align: center;
+}
+
+.wsus__dashboard_menu button {
+    text-align: right;
+}
+
+.wsus__dashboard_menu button.active::after {
+    right: auto;
+    left: -3px;
+}
+
+.wsus__dashboard_content {
+    padding: 25px 0px 25px 25px;
+}
+
+.wsus__dashboard .wsus__pagination nav ul li a {
+    margin: 0px 0px 0px 15px !important;
+}
+
+/* dashboard end */
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding-right: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding-right: 20px;
+        margin-right: 20px;
+    }
+
+    .wsus__topbar_language {
+        margin-right: 20px;
+    }
+
+    .wsus__featured_services_text {
+        padding: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    /* home page start */
+    .wsus__topbar_language {
+        margin-right: auto;
+        padding-right: 0;
+    }
+
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        margin-right: 0;
+    }
+
+    .wsus__topbar_icon li a {
+        margin-left: 7px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .main_menu .navbar-toggler {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: 50%;
+        right: auto;
+    }
+
+    .main_menu .search_form {
+        right: auto;
+        left: -135px;
+    }
+
+    .wsus__subscribe_text form button {
+        left: 10px;
+    }
+
+    .wsus__featured_services_text {
+        padding: 15px 15px 15px 32px;
+    }
+
+    .main_menu .wsus__right_menu li a {
+        margin: 0px 5px !important;
+    }
+
+    /* home page end */
+
+    /* about page start */
+    .wsus__about_us_img .img_2 {
+        left: 0;
+    }
+
+    .wsus__about_reasons_img .img_2 {
+        left: 0;
+        right: auto;
+    }
+
+    /* about page end */
+    .wsus__single_review_top .text {
+        width: 81%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    /* home page start */
+    .wsus__topbar_language {
+        margin-right: auto;
+        padding-right: 0;
+    }
+
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .main_menu .navbar-toggler {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: 50%;
+        right: auto;
+    }
+
+    .main_menu .search_form {
+        right: auto;
+        left: -135px;
+    }
+
+    .wsus__select_language {
+        left: 0;
+        right: auto;
+    }
+
+    .wsus__subscribe_text {
+        margin: 10px 15px 20px 15px;
+    }
+
+    .wsus__subscribe_text form button {
+        left: 10px;
+    }
+
+    .wsus__featured_services_text {
+        padding: 10px 0px 10px 10px;
+    }
+
+    /* home page end */
+
+    /* about page start */
+    .wsus__about_us_img .img_2 {
+        left: 0;
+    }
+
+    .wsus__about_reasons_img .img_2 {
+        left: 0;
+        right: auto;
+    }
+
+    /* about page end */
+
+    /* blog details start */
+    .blog_tags_share .tags ul li a {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .blog_det_button li.previous a h3 {
+        text-align: right;
+    }
+
+    .wsus__blog_newsletter input {
+        padding-right: 20px;
+        padding-left: 125px;
+    }
+
+    .blog_tags_share .share ul li a {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    /* blog details end */
+    .wsus__single_review_top .text {
+        width: 74%;
+    }
+}
+
+@media (max-width: 575.99px) {
+
+    /* home page start */
+    .wsus__topbar_language {
+        margin-right: auto;
+        padding-right: 0;
+    }
+
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .main_menu .navbar-toggler {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: 50%;
+        right: auto;
+    }
+
+    .main_menu .search_form {
+        right: auto;
+        left: -80px;
+    }
+
+    .wsus__select_language {
+        left: 0;
+        right: auto;
+    }
+
+    .wsus__subscribe_text {
+        margin: 10px 15px 20px 15px;
+    }
+
+    .wsus__subscribe_text form button {
+        left: 2px;
+    }
+
+    /* home page end */
+
+    /* about page start */
+    .wsus__about_us_img .img_2 {
+        left: 0;
+    }
+
+    .wsus__about_reasons_img .img_2 {
+        left: 0;
+        right: auto;
+    }
+
+    /* about page end */
+
+    /* blog details start */
+    .wsus__blog_quot_text {
+        padding: 20px 40px 20px 20px;
+    }
+
+    .wsus__blog_quot_text::before {
+        right: 2px;
+    }
+
+    .wsus__blog_quot_text::after {
+        right: 16px;
+    }
+
+    .blog_tags_share .tags ul li a {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .blog_det_button li.previous a h3 {
+        text-align: right;
+    }
+
+    .wsus__blog_newsletter input {
+        padding-right: 20px;
+        padding-left: 125px;
+    }
+
+    /* blog details end */
+
+    /* booking start */
+    .booking_bar li {
+        margin-left: 12px;
+    }
+
+    .wsus__booking_payment li {
+        width: 73px;
+    }
+
+    /* booking end */
+}

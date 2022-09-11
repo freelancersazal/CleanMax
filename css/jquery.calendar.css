@@ -37,7 +37,7 @@
 }
 
 .calendar header .button:hover {
-	background: #0582e1 !important;
+	background: rgb(69, 71, 142) !important;
 }
 
 .calendar header .left.button {
