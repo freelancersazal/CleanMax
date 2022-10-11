@@ -135,7 +135,7 @@ button {
     position: fixed;
     top: 0px;
     left: 0px;
-    z-index: 9999;
+    z-index: 999;
 }
 
 .wsus__topbar_info {
@@ -533,7 +533,7 @@ button {
     position: fixed;
     left: 0px;
     top: 0px !important;
-    z-index: 9999;
+    z-index: 999;
     animation: 1s ease-in-out 0s 1 normal none running menu_animate;
 }
 
@@ -4123,21 +4123,6 @@ footer {
     color: var(--colorWhite);
 }
 
-.wsus__booking_location {
-    background: var(--colorWhite);
-    border-radius: 5px;
-    padding: 30px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.wsus__booking_location .search {
-    margin-bottom: 58px;
-}
-
-.wsus__booking_location .nice-select {
-    border-radius: 5px;
-}
-
 .wsus__booking_calendar,
 .wsus__booking_pic_up {
     background: var(--colorWhite);
@@ -4312,22 +4297,70 @@ footer {
     margin-top: 25px;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid rgb(238, 238, 238);
-    background: var(--colorWhite);
-    border-radius: 3px;
-    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
 }
 
 .wsus__booking_payment li {
-    width: 121px;
+    width: 112px;
     height: 60px;
     border-radius: 5px;
     overflow: hidden;
-    border-right: 1px solid rgb(238, 238, 238);
+    border: 1px solid rgb(238, 238, 238);
+    background: var(--colorWhite);
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+    margin-top: 5px;
+    margin-right: 10px;
 }
 
 .wsus__booking_payment li:last-child {
     border-right: 0px;
+}
+
+.wsus__booking_payment li a {
+    width: 100%;
+    height: 100%;
+}
+
+.wsus__payment_modal .modal-header h5 {
+    font-size: 18px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.wsus__payment_modal .modal-body input,
+.wsus__payment_modal .modal-body textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding: 10px;
+    color: var(--colorSecondary);
+    font-size: 16px;
+    border-radius: 5px;
+    resize: none;
+    font-weight: 300;
+    outline: none;
+}
+
+.wsus__payment_modal .nice-select {
+    background-color: var(--colorWhite);
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding: 10px;
+    color: var(--colorSecondary);
+    font-size: 16px;
+    border-radius: 5px;
+    resize: none;
+    font-weight: 300;
+    outline: none;
+}
+
+.wsus__payment_modal .nice-select .current {
+    font-weight: 300;
+}
+
+.wsus__payment_modal .modal-body p {
+    margin-top: -10px;
+    margin-bottom: 5px;
 }
 
 /* ==================================
@@ -4354,7 +4387,7 @@ footer {
     margin-bottom: 20px;
     padding: 30px 0px;
     text-align: center;
-    border-bottom: 3px solid var(--colorWhite);
+    /* border-bottom: 3px solid var(--colorWhite); */
 }
 
 .dasboard_header img {
@@ -4386,9 +4419,9 @@ footer {
     transition: all 0.3s linear 0s;
     background: none !important;
     color: var(--colorBlack) !important;
-    border-bottom: 1px solid rgb(255, 255, 255) !important;
+    border-top: 2px solid rgb(255, 255, 255) !important;
     border-radius: 0px !important;
-    padding: 15px 25px !important;
+    padding: 0px 0px !important;
     -webkit-transition: all 0.3s linear 0s;
     -moz-transition: all 0.3s linear 0s;
     -ms-transition: all 0.3s linear 0s;
@@ -4396,39 +4429,39 @@ footer {
 }
 
 .wsus__dashboard_menu button span {
-    color: var(--colorBlack);
-    width: 25px;
     display: inline-block;
     transition: all 0.3s linear 0s;
     -webkit-transition: all 0.3s linear 0s;
     -moz-transition: all 0.3s linear 0s;
     -ms-transition: all 0.3s linear 0s;
     -o-transition: all 0.3s linear 0s;
+    width: 50px;
+    height: 50px;
+    background: var(--colorPrimary);
+    color: var(--colorWhite) !important;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
 }
 
 .wsus__dashboard_menu button:last-child {
-    border-bottom: 0px !important;
+    border-bottom: 2px solid rgb(255, 255, 255) !important;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .nav-link:hover {
-    color: var(--colorPrimary) !important;
-}
-
-.nav-pills .nav-link.active span,
-.nav-pills .nav-link:hover span {
-    color: var(--colorPrimary) !important;
+    background: #292b7517 !important;
 }
 
 .wsus__dashboard_menu button.active::after {
     position: absolute;
     content: "";
     background: var(--colorPrimary);
-    width: 10px;
-    height: 25px;
-    top: 14px;
+    width: 8px;
+    height: 50px;
+    top: 0;
     right: -3px;
-    border-radius: 3px;
+    border-radius: 20px;
     transition: all 0.3s linear 0s;
     -webkit-transition: all 0.3s linear 0s;
     -moz-transition: all 0.3s linear 0s;
@@ -4528,6 +4561,7 @@ footer {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    cursor: pointer;
 }
 
 .wsus_dash_personal_info h4 a:hover {
@@ -4539,11 +4573,13 @@ footer {
 .wsus_dash_personal_info p {
     color: var(--colorBlack);
     margin-top: 20px;
+    display: flex;
+    justify-content: start;
 }
 
 .wsus_dash_personal_info p span {
     display: inline-block;
-    width: 120px;
+    min-width: 120px;
 }
 
 .info_modal .modal-dialog {
@@ -4620,6 +4656,7 @@ footer {
     border: 1px solid var(--colorPrimary);
     padding: 5px 10px 3px 10px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .wsus_dashboard_order table tr td a:hover {
@@ -4676,6 +4713,7 @@ footer {
     padding: 20px;
     border: none;
     width: 500px;
+    background: rgb(233, 247, 250);
 }
 
 .wsus__dashboard .modal-header {
@@ -4746,6 +4784,659 @@ footer {
     background: #c02b2b;
 }
 
+
+
+
+
+.wsus__invoice .go_back {
+    background: var(--colorPrimary);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--colorWhite) !important;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__invoice .go_back i {
+    margin-right: 10px;
+}
+
+.wsus__invoice .go_back:hover {
+    background: var(--colorBlack);
+}
+
+.wsus__invoice_header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wsus__invoice_header p {
+    margin: 30px 0px;
+}
+
+.wsus__invoice_header p b {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: var(--headingFont);
+    text-transform: capitalize;
+    display: block;
+}
+
+.wsus__invoice_header p span {
+    color: red;
+}
+
+.wsus__invoice table {
+    border: .5px solid var(--colorPrimary);
+    margin: 0;
+}
+
+.wsus__invoice table tr {
+    border: 1px solid var(--colorPrimary);
+    border-right: 0;
+}
+
+.wsus__invoice table tr th {
+    background: var(--colorPrimary);
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: var(--colorWhite);
+}
+
+.wsus__invoice table tr th,
+.wsus__invoice table tr td {
+    padding: 15px 30px;
+}
+
+.wsus__invoice table tr td {
+    color: var(--colorBlack);
+    padding: 20px 30px 10px 30px;
+}
+
+.wsus__invoice table tr td p {
+    margin: 0 0 10px 0;
+    color: var(--colorBlack);
+}
+
+.wsus__invoice table tr td b {
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.wsus__invoice .package {
+    width: 40%;
+}
+
+.wsus__invoice .price,
+.wsus__invoice .qnty,
+.wsus__invoice .total {
+    width: 20%;
+}
+
+.wsus__invoice_footer {
+    margin-top: 65px;
+}
+
+.wsus__invoice_footer_info h3 {
+    margin-bottom: 20px;
+}
+
+.wsus__invoice_footer_info p {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--colorBlack);
+    font-family: var(--headingFont);
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: start;
+}
+
+.wsus__invoice_footer_info p span {
+    margin: 0;
+    text-transform: capitalize;
+    min-width: 130px;
+    display: inline-block;
+}
+
+.wsus__invoice_footer_total {
+    border-radius: 5px;
+    padding: 15px 30px;
+    background: var(--colorWhite);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.wsus__invoice_footer_total h5 {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wsus__invoice_footer_total h5 span {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+    font-family: var(--headingFont);
+}
+
+.wsus__invoice_footer_total .tax,
+.wsus__invoice_footer_total .tax span {
+    color: red;
+}
+
+.wsus__invoice_footer_total .total_tk {
+    border-top: 2px solid #eee;
+    padding-top: 10px;
+}
+
+.wsus__invoice_footer_request {
+    margin: 60px 0px;
+}
+
+.wsus__invoice_footer_request h4 {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--colorBlack);
+    margin-bottom: 10px;
+}
+
+.wsus__invoice_footer_request p {
+    margin: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+.wsus__invoice_footer_request p span {
+    min-width: 130px;
+    display: inline-block;
+}
+
+.wsus__invoice .order_request_btn {
+    float: right;
+}
+
+.wsus__invoice .wsus__review_input legend {
+    text-align: left;
+}
+
+.wsus__invoice .wsus__review_input button {
+    width: 100%;
+}
+
+.wsus__invoice select {
+    clear: left;
+    width: 100%;
+    border: none;
+    height: 40px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-weight: 300;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.wsus__dashboard .wsus__invoice .modal-header {
+    border: 0;
+    padding: 12px 15px 0px 15px;
+}
+
+.wsus_dashboard_body .wsus__invoice {
+    display: none;
+    background: rgb(233, 247, 250);
+    border-radius: 5px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+
+
+
+.support_ticket {
+    background: rgb(233, 247, 250);
+    border-radius: 5px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.wsus__support_ticket_top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.wsus__support_ticket_top h3 {
+    margin: 0;
+}
+
+.wsus__support_ticket_top .right {
+    display: flex;
+    align-items: center;
+}
+
+.wsus__support_ticket_top .right a {
+    cursor: pointer;
+}
+
+.wsus__ticket_item table {
+    margin: 0;
+}
+
+.wsus__ticket_item table tr {
+    border: 1px solid var(--colorPrimary);
+    border-right: .5px solid var(--colorPrimary);
+}
+
+.wsus__ticket_item table tr th,
+.wsus__ticket_item table tr td {
+    padding: 10px 20px;
+    border-right: .5px solid var(--colorPrimary);
+}
+
+.wsus__ticket_item table tr th {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    font-weight: 700;
+    font-size: 18px;
+    font-family: var(--headingFont);
+    text-transform: capitalize;
+    border: none;
+}
+
+.wsus__ticket_item table tr .sn,
+.wsus__ticket_item table tr .action {
+    width: 10%;
+    text-align: center;
+}
+
+.wsus__ticket_item table tr .from,
+.wsus__ticket_item table tr .info {
+    width: 30%;
+}
+
+.wsus__ticket_item table tr .status {
+    width: 20%;
+    text-align: center;
+}
+
+
+.wsus__ticket_item table tr td p {
+    font-size: 14px;
+    margin: 5px 0px;
+}
+
+.wsus__ticket_item table tr td p span {
+    font-size: 14px;
+    color: var(--colorPrimary);
+}
+
+.wsus__ticket_item table tr td .active {
+    background: #D5E8FF;
+    border-radius: 30px;
+    text-transform: capitalize;
+    color: var(--colorPrimary);
+    padding: 5px 20px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.wsus__ticket_item table tr td .closed {
+    background: red;
+    border-radius: 30px;
+    text-transform: capitalize;
+    color: var(--colorWhite);
+    padding: 5px 20px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.wsus__ticket_item table tr td .ticket_invoice_view {
+    background: #D5E8FF;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: var(--colorPrimary);
+    display: inline-block;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.wsus__ticket_item table tr td .ticket_invoice_view:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.wsus__ticket_item table tr td .del_ticket {
+    background: #FE5A3F;
+    border-radius: 3px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: var(--colorWhite);
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.wsus__support_tecket_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.wsus__support_tecket_footer p {
+    margin: 0;
+    color: var(--colorPrimary);
+}
+
+.wsus__support_tecket_footer ul li:first-child a {
+    background: none;
+    color: var(--colorPrimary);
+    border: 1px solid var(--colorPrimary);
+    margin-right: 10px;
+}
+
+.wsus__ticket_modal select {
+    clear: left;
+    width: 100%;
+    border: none;
+    height: 40px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-weight: 300;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.ticket_list_view_area .go_ticket {
+    background: var(--colorPrimary);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--colorWhite) !important;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.ticket_list_view_area .go_ticket i {
+    margin-right: 10px;
+}
+
+.ticket_list_view_area .go_ticket:hover {
+    background: var(--colorBlack);
+}
+
+.wsus__support_ticket_single {
+    background: var(--colorWhite);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.wsus__support_ticket_single h5 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: var(--paraFont);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.wsus__support_ticket_single h5 span {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--colorBlack);
+}
+
+.wsus__support_ticket_single h6 {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--colorBlack);
+    font-family: var(--paraFont);
+}
+
+.wsus__support_ticket_single h6 span {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.wsus__support_ticket_single p {
+    margin: 25px 0px;
+}
+
+.wsus__support_ticket_single .urgent {
+    background: #D5E8FF;
+    text-transform: capitalize;
+    color: var(--colorPrimary);
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+
+.ticket_list_view_form textarea {
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.ticket_list_view_form input {
+    background: var(--colorWhite);
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.ticket_list_view_form p {
+    margin: 20px 0px;
+    color: var(--colorPrimary);
+}
+
+.ticket_list_view_sidebar h4 {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+    border-bottom: 2px solid var(--colorWhite);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.ticket_list_view_sidebar p {
+    margin: 20px 0px;
+    color: var(--colorBlack);
+}
+
+.ticket_list_view_sidebar p span {
+    color: var(--colorPrimary);
+}
+
+.ticket_list_view_sidebar p b {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 40px;
+    background: #D5E8FF;
+    text-transform: capitalize;
+    color: var(--colorPrimary);
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+
+.wsus__ticket_list_view {
+    display: none;
+}
+
+.wsus_dash_personal_info_edit {
+    display: none;
+}
+
+.wsus_dash_personal_info.show .personal_info_text {
+    display: none;
+}
+
+.wsus_dash_personal_info.show .wsus_dash_personal_info_edit {
+    display: block;
+}
+
+
+
+
+.wsus__request_modal .comment_input,
+.wsus__ticket_modal .comment_input {
+    text-align: left;
+    padding: 0;
+    background: none;
+}
+
+
+
+
+
+.ticket_list_view_area,
+.ticket_list_view_sidebar {
+    background: rgb(233, 247, 250);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+
 /* ==================================
     DASHBOARD END
 =================================== */
+
+
+/*================================
+    SELLAR JOIN START
+================================*/
+.wsus__sellar_joining_bg {
+    background: rgb(233, 247, 250);
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.wsus__sellar_joining_top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.wsus__sellar_joining_top .img {
+    width: 150px;
+    height: 150px;
+    background: var(--colorWhite);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: var(--colorPrimary);
+    margin-right: 40px;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.wsus__sellar_joining_top .text h4 {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.wsus__sellar_joining_top .text p,
+.wsus__sellar_joining_top .text span {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--paraColor);
+    font-family: var(--headingFont);
+}
+
+.wsus__sellar_joining_top .text span {
+    margin-top: 20px;
+    display: block;
+    color: var(--colorBlack);
+}
+
+.wsus__sellar_joining h4 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+    margin-bottom: 5px;
+}
+
+.wsus__sellar_joining .form-check input {
+    border: 1px solid var(--paraColor) !important;
+    padding: 0;
+    border-radius: 2px;
+}
+
+.wsus__sellar_joining .form-check label {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--paraColor);
+    font-family: var(--headingFont);
+    margin-left: 5px;
+}
+
+.wsus__sellar_joining .form-check label a {
+    color: var(--colorPrimary);
+    font-weight: 600;
+    font-family: var(--headingFont);
+    font-size: 16px;
+}
+
+.wsus__comment_imput_single .nice-select {
+    background: var(--colorWhite) !important;
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+    resize: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.wsus__comment_imput_single .nice-select .current {
+    font-weight: 300;
+}
+
+.wsus__comment_imput_single .form-check-input:checked {
+    background-color: var(--colorPrimary);
+}
+
+/*================================
+    SELLAR JOIN END
+================================*/

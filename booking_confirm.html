@@ -192,22 +192,47 @@
                         <p><span>Phone:</span> +88 0140 8317188</p>
                         <p><span>Post Code:</span> 1207</p>
                         <p><span>Address:</span> 374 FA Tower, William S Bloibvd 2721, IL, USA.</p>
-                        <p><span>Order Note::</span> </p>
+                        <p><span>Order Note:</span> </p>
 
                         <ul class="wsus__booking_payment">
-                            <li><img src="images/pay_1.jpg" alt="payment" class="img-fluid w-100"></li>
-                            <li><img src="images/pay_2.jpg" alt="payment" class="img-fluid w-100"></li>
-                            <li><img src="images/pay_3.jpg" alt="payment" class="img-fluid w-100"></li>
-                            <li><img src="images/pay_4.jpg" alt="payment" class="img-fluid w-100"></li>
-                            <li><img src="images/pay_5.jpg" alt="payment" class="img-fluid w-100"></li>
-                            <li><img src="images/pay_6.jpg" alt="payment" class="img-fluid w-100"></li>
-                            <li><img src="images/pay_4.jpg" alt="payment" class="img-fluid w-100"></li>
+                            <li>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <img src="images/pay_1.jpg" alt="payment" class="img-fluid w-100">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <img src="images/pay_2.jpg" alt="payment" class="img-fluid w-100">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <img src="images/pay_3.jpg" alt="payment" class="img-fluid w-100">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <img src="images/pay_4.jpg" alt="payment" class="img-fluid w-100">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <img src="images/pay_5.jpg" alt="payment" class="img-fluid w-100">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <img src="images/pay_6.jpg" alt="payment" class="img-fluid w-100">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <img src="images/pay_1.jpg" alt="payment" class="img-fluid w-100">
+                                </a>
+                            </li>
+
                         </ul>
                     </div>
-                    <ul class="wsus__booking_button_area d-flex justify-content-between">
-                        <li><a href="booking_info.html" class="common_btn">Previous</a></li>
-                        <li><a href="booking_info.html" class="common_btn">Next</a></li>
-                    </ul>
                 </div>
                 <div class="col-xl-4 col-lg-4">
                     <div class="wsus__sidebar" id="sticky_sidebar">
@@ -229,6 +254,58 @@
                                 <h5>Total <span>$490.00</span></h5>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wsus__payment_modal modal fade" id="staticBackdrop" data-bs-backdrop="static"
+            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Cash on delivery</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <input type="text" placeholder="Card Number">
+                                </div>
+                                <div class="col-xl-6 col-sm-6">
+                                    <input type="text" placeholder="Exp: Month">
+                                </div>
+                                <div class="col-xl-6 col-sm-6">
+                                    <input type="text" placeholder="Exp: Year">
+                                </div>
+                                <div class="col-xl-12">
+                                    <input type="text" placeholder="CVV">
+                                </div>
+                                <div class="col-xl-12">
+                                    <select id="select_js2">
+                                        <option value="">Select </option>
+                                        <option value="">Bangladesh</option>
+                                        <option value="">Korea</option>
+                                        <option value="">Jaoan</option>
+                                        <option value="">Thailand</option>
+                                        <option value="">Singapore</option>
+                                    </select>
+                                </div>
+                                <div class="col-xl-12">
+                                    <textarea cols="3" rows="3" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-xl-12">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse ducimus
+                                        Quasi architecto repellendus officia sequi maiores ullam deserunt sunt mollitia.
+                                        Aut aperiam iste doloribus quod.</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger">Checkout</button>
                     </div>
                 </div>
             </div>

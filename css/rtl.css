@@ -752,6 +752,43 @@ input:checked {
 
 /* dashboard end */
 
+
+/* sellar join page start */
+.wsus__sellar_joining_top .img {
+    margin-right: 0;
+    margin-left: 40px;
+}
+
+.wsus__sellar_joining_top .text span b {
+    float: right;
+}
+
+.wsus__sellar_joining .form-check input {
+    float: right;
+}
+
+.wsus__sellar_joining .form-check label {
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+/* sellar join page end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1200px) and (max-width: 1399.99px) {
 
     .wsus__topbar_info li a,
